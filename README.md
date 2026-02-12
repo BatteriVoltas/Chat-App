@@ -1,4 +1,4 @@
-# hw3
+# Chat-App
 
 A new Flutter project.
 

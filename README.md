@@ -1,16 +1,45 @@
-# Chat-App
+# 💬 Flutter Real-Time Chat App
 
-A new Flutter project.
+Flutter ve Firebase kullanılarak geliştirilmiş, modern arayüze sahip gerçek zamanlı bir mesajlaşma uygulamasıdır. Kullanıcılar kayıt olup giriş yapabilir ve anlık olarak birbirleriyle mesajlaşabilirler.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+- **Kullanıcı Girişi & Kayıt:** Firebase Authentication ile güvenli e-posta/şifre girişi.
+- **Anlık Mesajlaşma:** Cloud Firestore ile gerçek zamanlı veri akışı.
+- **Güvenli Veritabanı:** Sadece giriş yapmış kullanıcılar mesaj okuyabilir/yazabilir.
+- **Modern Arayüz:** Mesaj balonları, kullanıcı dostu tasarım ve akıcı animasyonlar.
+- **Kimlik Kontrolü:** Gönderilen mesajın kime ait olduğunu (Ben/Başkası) otomatik algılama.
 
-A few resources to get you started if this is your first Flutter project:
+## Kullanılan Teknolojiler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Flutter:** UI Framework
+* **Dart:** Programlama Dili
+* **Firebase Authentication:** Kimlik Doğrulama
+* **Cloud Firestore:** NoSQL Veritabanı
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Kurulum ve Çalıştırma
+
+Bu projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1.  **Projeyi Klonlayın:**
+    ```bash
+    git clone 
+    ```
+
+2.  **Gerekli Paketleri Yükleyin:**
+    Terminalde proje dizinine gidip şu komutu çalıştırın:
+    ```bash
+    flutter pub get
+    ```
+
+3.  **Uygulamayı Başlatın:**
+    ```bash
+    flutter run
+    ```
+
+## Notlar
+
+Bu proje eğitim ve portfolyo amaçlı geliştirilmiştir. `firebase_options.dart` dosyası projeye dahildir, böylece ek bir ayar yapmadan doğrudan test edebilirsiniz.
+
+---

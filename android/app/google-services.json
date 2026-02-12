@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721727257790",
+    "project_id": "batteri-voltas77-b7161",
+    "storage_bucket": "batteri-voltas77-b7161.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721727257790:android:3b846ab39a017086cef2ef",
+        "android_client_info": {
+          "package_name": "com.example.hw3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYjNsUVRgzbdOkXhSbciu-W6rncYH0Otg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

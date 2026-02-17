@@ -1,16 +1,17 @@
-Flutter Real-Time Chat App
+### Flutter Real-Time Chat App
 
 A secure, real-time messaging application developed using Flutter and Firebase. It features a modern UI and robust security rules.
 
-Features
+### Features
 
 - **Secure Authentication:** Email/Password login powered by Firebase Authentication.
 - **Real-Time Chat:** Instant messaging using Cloud Firestore.
 - **Data Security:** Custom Security Rules ensure only authenticated users can access messages.
-- **Timestamps:** Messages display the sent time (HH:mm format).
+- **Timestamps:** Messages display the sent time.
 - **Modern UI:** Clean design with colored bubbles distinguishing sender and receiver.
 - **Identity Check:** Automatic alignment of messages (Right for "Me", Left for "Others").
-Screenshots
+- 
+  ### Screenshots
 
 
 Important Setup Note!

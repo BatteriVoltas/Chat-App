@@ -1,45 +1,52 @@
-# 💬 Flutter Real-Time Chat App
+Flutter Real-Time Chat App
 
-Flutter ve Firebase kullanılarak geliştirilmiş, modern arayüze sahip gerçek zamanlı bir mesajlaşma uygulamasıdır. Kullanıcılar kayıt olup giriş yapabilir ve anlık olarak birbirleriyle mesajlaşabilirler.
+A secure, real-time messaging application developed using Flutter and Firebase. It features a modern UI and robust security rules.
 
-## Özellikler
+Features
 
-- **Kullanıcı Girişi & Kayıt:** Firebase Authentication ile güvenli e-posta/şifre girişi.
-- **Anlık Mesajlaşma:** Cloud Firestore ile gerçek zamanlı veri akışı.
-- **Güvenli Veritabanı:** Sadece giriş yapmış kullanıcılar mesaj okuyabilir/yazabilir.
-- **Modern Arayüz:** Mesaj balonları, kullanıcı dostu tasarım ve akıcı animasyonlar.
-- **Kimlik Kontrolü:** Gönderilen mesajın kime ait olduğunu (Ben/Başkası) otomatik algılama.
-
-## Kullanılan Teknolojiler
-
-* **Flutter:** UI Framework
-* **Dart:** Programlama Dili
-* **Firebase Authentication:** Kimlik Doğrulama
-* **Cloud Firestore:** NoSQL Veritabanı
+- **Secure Authentication:** Email/Password login powered by Firebase Authentication.
+- **Real-Time Chat:** Instant messaging using Cloud Firestore.
+- **Data Security:** Custom Security Rules ensure only authenticated users can access messages.
+- **Timestamps:** Messages display the sent time (HH:mm format).
+- **Modern UI:** Clean design with colored bubbles distinguishing sender and receiver.
+- **Identity Check:** Automatic alignment of messages (Right for "Me", Left for "Others").
+Screenshots
 
 
-## Kurulum ve Çalıştırma
+Important Setup Note!
 
-Bu projeyi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+This project is open-source; however, for security and privacy reasons, the **Firebase API Keys** are **NOT** included in this repository.
 
-1.  **Projeyi Klonlayın:**
+To run this project on your local machine, you must connect it to **your own Firebase project**.
+
+### How to Run
+
+1.  **Clone the Repository:**
     ```bash
-    git clone 
+    git clone [https://github.com/BatteriVoltas/Chat-App.git]
     ```
 
-2.  **Gerekli Paketleri Yükleyin:**
-    Terminalde proje dizinine gidip şu komutu çalıştırın:
-    ```bash
-    flutter pub get
-    ```
+2.  **Create Your Own Firebase Project:**
+    Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
 
-3.  **Uygulamayı Başlatın:**
+3.  **Enable Authentication & Firestore:**
+    * **Authentication:** Sign-in method -> Email/Password (Enable).
+    * **Firestore Database:** Create Database -> Start in production mode.
+
+4.  **Connect Your Project (Terminal):**
+    Run the following command in the project root (Requires FlutterFire CLI):
+    ```bash
+    flutterfire configure
+    ```
+    
+5.  **Run the App:**
     ```bash
     flutter run
     ```
 
-## Notlar
+##  Project Structure
 
-Bu proje eğitim ve portfolyo amaçlı geliştirilmiştir. `firebase_options.dart` dosyası projeye dahildir, böylece ek bir ayar yapmadan doğrudan test edebilirsiniz.
+* `lib/auth_page.dart`: Handles Login and Registration logic.
+* `lib/chat_page.dart`: Manages the Chat UI and Firestore connection.
+* `lib/main.dart`: Entry point and session management.
 
----

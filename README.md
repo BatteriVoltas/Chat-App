@@ -23,7 +23,7 @@ To run this project on your local machine, you must connect it to **your own Fir
 
 1.  **Clone the Repository:**
     ```bash
-    git clone
+    git clone [https://github.com/BatteriVoltas/Chat-App.git]
     ```
 
 2.  **Create Your Own Firebase Project:**

@@ -17,7 +17,8 @@ A secure, real-time messaging application developed using Flutter and Firebase. 
 
 
 
-Important Setup Note!
+
+### Important Setup Note!
 
 This project is open-source; however, for security and privacy reasons, the **Firebase API Keys** are **NOT** included in this repository.
 

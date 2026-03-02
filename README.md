@@ -12,8 +12,8 @@ A secure, real-time messaging application developed using Flutter and Firebase. 
 - **Identity Check:** Automatic alignment of messages (Right for "Me", Left for "Others").
 - 
   ### Screenshots
-<img width="462" height="947" alt="image" src="https://github.com/user-attachments/assets/b4d94b13-2d70-4782-a59d-64407ea0003f" />
-<img width="465" height="1009" alt="image" src="https://github.com/user-attachments/assets/97c2d046-8dd3-4756-9c21-dba6e6c35833" />
+<img width="350" height="900" alt="image" src="https://github.com/user-attachments/assets/b4d94b13-2d70-4782-a59d-64407ea0003f" />
+<img width="350" height="900" alt="image" src="https://github.com/user-attachments/assets/97c2d046-8dd3-4756-9c21-dba6e6c35833" />
 
 
 
